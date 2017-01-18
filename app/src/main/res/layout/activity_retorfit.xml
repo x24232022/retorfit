@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_retorfit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.retorfit_20170106.retrofitGet.RetorfitActivity">
+
+    <Button
+        android:id="@+id/retorfit_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retorfit_get"/>
+    <Button
+        android:id="@+id/retorfit_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retorfit_post"/>
+
+    <Button
+        android:id="@+id/retorfit_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retorfit_from"/>
+    <Button
+        android:id="@+id/retorfit_from_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retorfit_from_map"/>
+
+    <Button
+        android:id="@+id/retorfit_from_mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retorfit_from_mult"/>
+
+</LinearLayout>

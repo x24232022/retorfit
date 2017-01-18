@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ok_http"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.administrator.retorfit_20170106.okHttpGet.OkHttpActivity">
+
+    <Button
+        android:id="@+id/btn_okhttp_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okHttp"/>
+    <Button
+        android:id="@+id/btn_get_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="优化okHttp"/>
+    <Button
+        android:id="@+id/btn_get_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okHttp_post"/>
+    <Button
+        android:id="@+id/btn_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okHttp_from"/>
+    <Button
+        android:id="@+id/btn_mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okHttp_mult"/>
+
+
+
+</LinearLayout>
